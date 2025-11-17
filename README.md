@@ -10,15 +10,6 @@ Objetivos
 ✅ Calcular conteúdo GC e classificar por faixas
 ✅ Gerar relatórios da análise
 
-🧪 Tipos de RNA Classificados
-Tipo RNA	Tamanho (bases)	          Função Principal	
-miRNA	        18-24	         Regulação pós-transcricional	
-siRNA	        20-25	              Silenciamento gênico	
-piRNA	        26-31	            Controle de transposons	
-snoRNA	       60-300	             Modificação de rRNA	
-snRNA	       100-300	         Processamento de pré-mRNA	
-lncRNA	        >350	        Diversas funções regulatórias	
-
 
 ## Como Usar
 Pré-requisitos
