@@ -1,0 +1,78 @@
+#Pseudocódigo 
+#Objetivo: ler e classificar RNAs não-codificantes
+
+#Criando variáveis
+#Tipos de RNAs não-codificantes
+RNAs longos não codificantes (lncRNAs)
+miRNA
+RNAs de interferência (siRNA)
+RNAs nucleares pequenos (snRNA)
+RNAs nucleolares pequenos (snoRNA)
+RNAs de interferência de pequenos pi (piRNA)
+
+#Definindo o tamanho dos RNAS
+
+FUNÇÃO classificar_RNA(sequencia):
+    comprimento ← CALCULAR_COMPRIMENTO(sequencia)
+    
+    SE comprimento < 18 ENTÃO
+        RETORNAR "Fragmento muito curto" 
+
+RNAs_CURTOS = {
+    'miRNA': (18, 24),
+    'piRNA': (26, 31)
+}
+
+RNAs_MEDIOS = {
+    'snoRNA': (60, 300),
+    'snRNA': (100, 300),
+}
+
+se > 350 = lncRNAs
+
+#Importando as sequências de RNAs não-codificante
+
+de maquina importe arquivos 
+upload = arquivo.upload("sequencias.txt")
+
+abra "sequencias.txt"
+
+leia "sequencias.txt" 
+ 
+#Verificando tipo de ncRNA
+sequencias = "sequencias.text"
+ler "sequencias.txt"
+#criar loop para identificar as sequências
+sequencias {}
+seq_id inicia ">":
+termina "->"
+#imprimir todas sequencias 
+imprima "seq1", "seq2", "seq3", "seq4", "seq5", "seq6", "seq7", "seq8"
+
+#Contar sequencias nucleotídicas
+conte.sequencias
+conte "seq1", "seq2", "seq3", "seq4", "seq5", "seq6", "seq7", "seq8"
+#imprima o tamanho da sequencia
+imprimir ("O tamanho da sequência", seq_id, "é: ") 
+
+#Classificar sequências pelo tamanho
+
+se seq_id = contar "18:24" então imprima "seq_id é um miRNA"
+se seq_id = contar "20:25" então imprima "seq_id é um siRNA"
+se seq_id = contar "26:31" então imprima "seq_id é um piRNA"
+se seq_id = contar "60:300" então imprima "seq_id é um snoRNA"
+se seq_id = contar "100:300" então imprima "seq_id é um snRNA"
+se seq_id contar > 350 então imprima "seq_id é um lncRNAs"
+
+#Contando GC 
+contar gc_mirna(sequencia):
+    gc_content = calcular_gc_content(seq_id)
+    sequencias {
+    se 40 <= gc_content <= 60:
+        então imprima "GC moderado, ideal para miRNA"
+    se 30 <= gc_content:
+        return "GC baixo, pode ser um lncRNA" 
+    se > 60
+        return "GC alto, não é um ncRNA"
+}
+
