@@ -12,6 +12,15 @@ Sistema em Python para classificação automática de RNAs não-codificantes (nc
 - ✔ Calcular conteúdo GC e interpretá-lo  
 - ✔ Organizar as análises em saída legível  
 
+## 📌 Visão Geral do Projeto
+Este repositório contém um pipeline simples e didático para treinar Python aplicado à Biologia Molecular.  
+Aqui você vai encontrar:
+
+- Um **pseudocódigo** detalhado explicando toda a lógica do programa  
+- Arquivos de **sequências (FASTA / TXT)**  
+- Estrutura inicial do **código Python**  
+- Pasta para armazenar **resultados**  
+- Cronograma de desenvolvimento do projeto
 
 ## Como Usar
 Pré-requisitos
