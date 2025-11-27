@@ -48,7 +48,7 @@ Nenhuma dependência externa necessária
 | **Semana 4** | até **06/12** | • Testar o código na máquina<br>• Organizar as pastas no GitHub<br>• Adicionar exemplo de saída em `resultados/`<br>• Finalizar documentação<br>• Apresentar o projeto |
 
 ## Etapas concluídas 
-- ✔ Instalar Python e do VSCode 
+- ✔ Instalar Python e VSCode 
 - ✔ Instalar GitHub desktop
 - ✔ Criar repositório
 - ✔ Criação das pastas no repositório
