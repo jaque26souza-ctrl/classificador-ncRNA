@@ -46,11 +46,3 @@ Nenhuma dependência externa necessária
 | **Semana 2** | até **22/11** | • Criar arquivo FASTA<br>• Buscar sequências de ncRNAs no NCBI / Ensembl / miRBase<br>• Colocar sequências em arquivo .txt<br>• Começar o código em Python<br>• Instalar GitHub Desktop<br>• Criar um repositório no GitHub |
 | **Semana 3** | até **29/11** | • Verificar se o código está funcionando<br>• Calcular tamanho das sequências<br>• Classificar ncRNAs por tamanho<br>• Calcular conteúdo GC e interpretar<br>• Imprimir os resultados no terminal |
 | **Semana 4** | até **06/12** | • Testar o código na máquina<br>• Organizar as pastas no GitHub<br>• Adicionar exemplo de saída em `resultados/`<br>• Finalizar documentação<br>• Apresentar o projeto |
-
-## Etapas concluídas 
-- ✔ Instalar Python e VSCode 
-- ✔ Instalar GitHub desktop
-- ✔ Criar repositório
-- ✔ Criação das pastas no repositório
-- ✔ Criar o arquivo do código-fonte
-- ✔ Disponibilizar no GitHub
